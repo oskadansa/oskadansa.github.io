@@ -1,0 +1,247 @@
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* style.css */
+
+body {
+    background-color: rgb(236, 244, 255);
+    font-family: 'Poppins';
+}
+
+
+/* navbar */
+
+.navbar {
+    background-color: #1A1D1F;
+}
+
+.oskadansa {
+    font-weight: 700;
+}
+
+.nav-item {
+    margin-right: 30px;
+    font-weight: 500;
+}
+
+
+/* akhir navbar */
+
+
+/* jumbotron */
+
+.jumbo-1 {
+    height: 450px;
+    background-image: url(./img/herobanner.png);
+}
+
+.jumbo-1 .wellcome {
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: -10px;
+}
+
+.jumbo-1 .kadansa {
+    font-weight: 700;
+    color: white;
+    font-size: 46px;
+}
+
+.jumbo-1 .armayasa {
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+/* akhir jumbotron */
+
+
+/* prinsip */
+
+.prinsip {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    background-color: white;
+    margin-top: -90px;
+    padding: 30px;
+}
+
+svg {
+    color: #007BFF;
+}
+
+.prinsip .kalimat {
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 16px;
+}
+
+
+/* akhir prinsip */
+
+
+/* osis adalah*/
+
+img {
+    margin-top: 60px;
+}
+
+.osis {
+    margin-top: 50px;
+}
+
+.osis .kolom-2 .header {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    color: #1A1D1F;
+    margin-top: 80px;
+}
+
+.osis .kolom-2 p {
+    color: #505050;
+    font-size: 18px;
+}
+
+
+/* akhir osis adalah */
+
+
+/* quotes */
+
+.jumbo-2 {
+    background-color: #1A1D1F;
+    height: 250px;
+    margin-top: 100px;
+}
+
+.pertama p {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-top: -10px;
+}
+
+
+/* akhir quotes */
+
+
+/* tugas osis */
+
+.tugas-osis {
+    margin-bottom: 40px;
+}
+
+.tugas-osis .kolom-2 {
+    margin-top: 110px;
+}
+
+.tugas-osis .kolom-2 .header {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    color: #1A1D1F;
+}
+
+.tugas-osis .kolom-2 p {
+    font-size: 18px;
+    color: #505050;
+}
+
+
+/* akhir tugas osis */
+
+
+/* tata cara */
+
+.ikut-serta {
+    margin-top: 80px;
+}
+
+.ikut-serta .serta-ikut .tata-cara {
+    font-weight: 700;
+}
+
+.ikut-serta .serta-ikut .row .col .anjay {
+    margin-top: 20px;
+}
+
+.ikut-serta .serta-ikut .row .col p {
+    text-transform: capitalize;
+    margin-top: 26px;
+    margin-left: 50px;
+    font-weight: 700;
+    color: #1A1D1F;
+}
+
+.ikut-serta .konfirmasi .header-konfirmasi {
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+
+/* footer */
+
+.footer {
+    height: 400px;
+    background-color: #1A1D1F;
+}
+
+.footer .header-footer h1 {
+    color: rgb(75, 75, 75);
+    font-weight: 700;
+    margin-top: 70px;
+    text-transform: capitalize;
+}
+
+
+/* akhir footer */
+
+
+/* akhir tata cara */
+
+
+/* media query */
+
+@media (max-width: 575.98px) {
+    .osis {
+        margin-top: -10px;
+    }
+    .osis .kolom-2 .header {
+        margin-top: 30px;
+    }
+    .jumbo-2 {
+        margin-top: 30px;
+    }
+    .pertama p {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .tugas-osis .kolom-1 img {
+        margin-top: 20px;
+    }
+    .tugas-osis .kolom-2 .header {
+        margin-top: -70px;
+    }
+    .ikut-serta {
+        margin-top: 40px;
+    }
+    .ikut-serta .serta-ikut .row .col .anjay {
+        margin-top: 10px;
+    }
+    .ikut-serta .serta-ikut .row .col p {
+        margin-top: 14px;
+    }
+    .ikut-serta .konfirmasi .header-konfirmasi {
+        margin-top: 50px;
+    }
+}
+
+
+/* akhir media query */
